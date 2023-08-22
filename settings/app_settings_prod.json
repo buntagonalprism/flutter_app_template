@@ -1,0 +1,6 @@
+{
+    "googleClientId": "<INSERT_CLIENT_ID_HERE>",
+    "androidAppIdSuffix": "",
+    "appNamePrefix": "",
+    "firebaseEnvironment": "prod"
+}

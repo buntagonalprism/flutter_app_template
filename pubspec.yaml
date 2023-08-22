@@ -1,0 +1,42 @@
+name: MyAwesomeApp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.8.5
+  firebase_auth: ^4.7.3
+  firebase_core: ^2.15.1
+  firebase_ui_auth: ^1.6.4
+  firebase_ui_localizations: ^1.5.2
+  firebase_ui_oauth_google: ^1.2.8
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_mobx: ^2.0.6+5
+  freezed_annotation: ^2.4.1
+  get_it: ^7.6.0
+  go_router: ^10.1.0
+  google_sign_in: ^6.1.4
+  injectable: ^2.3.0
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  mobx: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  injectable_generator: ^2.4.0
+  json_serializable: ^6.7.1
+  freezed: 2.4.1 # Pinned because freezed 2.4.2 requires analyzer 6.0.0, which is not yet supported in any version of mobx_codegen
+  mobx_codegen: ^2.3.0
+
+flutter:
+  generate: true
+  uses-material-design: true
